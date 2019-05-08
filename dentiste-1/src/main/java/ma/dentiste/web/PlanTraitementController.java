@@ -1,0 +1,13 @@
+package ma.dentiste.web;
+
+import java.util.List;
+
+import ma.dentiste.entites.PlanTraitement;
+
+public interface PlanTraitementController {
+	public void addPlanTraitement(PlanTraitement planTraitement);
+	public void deletePlanTraitement(PlanTraitement planTraitement);
+	public PlanTraitement updatePlanTraitement(PlanTraitement planTraitement);
+	public PlanTraitement findById_planTraitement(Long id_planTraitement);
+	public List<PlanTraitement> findAll();
+}
